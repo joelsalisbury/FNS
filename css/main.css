@@ -100,7 +100,7 @@ body{
 	line-height: 4em;	
 }
 
-.nav-main li a{
+.nav-main .sub-nav li a{
 	width:125px!important;
 	height:43px!important;
 	display: inline-block!important;
