@@ -14,7 +14,7 @@ body{
 	background-color:#fff;
 	padding-top:15px;
 	padding-bottom:5px;
-	z-index:5;
+	z-index:99999;
 	position:fixed;
 	top:0px;
 }
@@ -139,7 +139,7 @@ body{
 
 .dvdwrap{
  position:absolute;	
-
+ z-index:9999;
 }
 
 #about{
@@ -162,7 +162,7 @@ body{
 }
 
 .buyoptions ul{
-	margin-bottom:35px;
+	margin-bottom:45px;
 }
 
 .buyoptions li{
@@ -194,12 +194,9 @@ body{
 
 .page-footer ul{
  list-style-type:none;	
-  color:#ffffff!important;
-  margin-left:0px;
-  font-size:12px;
 }
 
-.page-footer .sub-nav li{
+.page-footer li{
  list-style-type:none;
  color:#ffffff!important;	
  font-size:12px;
